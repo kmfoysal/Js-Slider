@@ -1,3 +1,7 @@
+body{
+  background-color:lightcyan;
+}
+
 .slider-container {
   display: flex;
   flex-direction: column;
@@ -15,20 +19,24 @@
 
 .slider-container .slider-item-wrapper .prev img {
   width: 50px;
+  cursor: pointer;
 }
 
 .slider-container .slider-item-wrapper .next img {
   width: 50px;
+  cursor: pointer;
 }
 
 .slider-container .slider-item-wrapper .slider-item {
   width: 800px;
   height: 500px;
   overflow: hidden;
+  transition: all 1s;
 }
 
 .slider-container .slider-item-wrapper .slider-item .slider {
   display: flex;
+  transition: all 1s;
 }
 
 .slider-container .slider-item-wrapper .slider-item .slider img {
@@ -47,4 +55,5 @@
     height: 12px;
     border: 1px solid red;
     border-radius: 50%;
+    cursor: pointer;
 }
